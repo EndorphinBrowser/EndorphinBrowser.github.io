@@ -1,0 +1,53 @@
+html {
+    background: #e2fdf4;
+    text-align: center;
+}
+
+header img {
+    height: 8rem;
+}
+
+.introtext {
+    margin: 0 10rem;
+}
+
+.downloads {
+    width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    background: #8080804d;
+    border-radius: 2rem;
+}
+
+.webengine {
+    border-right: 1px solid black;
+    background: #0095007a;
+    border-radius: 2rem;
+}
+
+.webkit {
+    width: 90%;
+}
+
+.downloads div {
+    padding: 1rem;
+    min-height: 20rem;
+    position: relative;
+}
+
+.downloads button {
+    margin-top: 1rem;
+    bottom: 0px;
+    position: unset;
+    padding: 1rem 5rem;
+    border: none;
+    border-radius: 0.5rem;
+    background: #004cff5e;
+    display: block;
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
